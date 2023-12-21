@@ -1,0 +1,26 @@
+.button {
+  border-radius: 0.2rem;
+  border: none;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+}
+.button.primary {
+  background-color: #0094FF;
+  color: #fff;
+}
+.button.secondary {
+  font-weight: 600;
+  padding: 0;
+  background-color: inherit;
+  color: #0094FF;
+}
+.button.disabled {
+  cursor: not-allowed;
+}
+
+.button.primary.disabled {
+  background-color: #d1d1d1;
+}
+.button.secondary.disabled {
+  color: #b5b5b5;
+}

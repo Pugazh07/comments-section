@@ -1,0 +1,32 @@
+.commentEditor {
+  padding: 0.5rem 1rem;
+  background-color: #F6F6F6;
+  border-radius: 0.2rem;
+  border: 1px solid #EEEEEE;
+}
+
+.header {
+  font-weight: 600;
+}
+.header, .nameInput, .commentTextarea {
+  margin-bottom: 0.5rem;
+}
+
+.nameInput, .commentTextarea {
+  width: 100%;
+  border-radius: 0.2rem;
+  border: 1px solid #EEEEEE;
+  padding: 0.5rem;
+}
+
+.nameInput:focus-visible, .commentTextarea:focus-visible {
+  outline: none;
+  border-color: #6ac1ff;
+}
+
+.footer {
+  /* padding-right: 1rem; */
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}

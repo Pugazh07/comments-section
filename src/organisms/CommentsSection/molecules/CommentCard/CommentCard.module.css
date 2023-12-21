@@ -1,0 +1,55 @@
+.commentCardContainer {
+  margin-bottom: 0.5rem;
+}
+.commentCardContainer .commentCard {
+  position: relative;
+  padding: 0.5rem 1rem;
+  background-color: #F6F6F6;
+  border-radius: 0.2rem;
+  border: 1px solid #EEEEEE;
+}
+
+.commentCardContainer header {
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.commentCardContainer header .userName {
+  font-weight: 600;
+}
+
+.commentCardContainer footer {
+  padding-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.commentCardContainer .comment {
+  padding: 0.5rem 0;
+}
+.commentCardContainer .comment > p {
+  margin: 0;
+  line-height: 1.5;
+}
+.commentCardContainer .newReplyEditor {
+  width: calc(100% - 4rem);
+  margin-top: 0.5rem;
+  margin-left: auto;
+}
+.commentCardContainer .deleteIcon {
+  position: absolute;
+  z-index: 1;
+  right: 0rem;
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #575757;
+  cursor: pointer;
+}

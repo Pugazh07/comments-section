@@ -1,0 +1,41 @@
+.commentsSectionContainer {
+  padding: 1rem 0;
+  height: 100%;
+  overflow: auto;
+  /* display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem; */
+}
+
+.commentsSectionContainer > section {
+  max-width: 42rem;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.commentsSectionContainer .sortSection {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.commentsSectionContainer .sortSection .sortIcon {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+/* .commentsSectionContainer .commentsListContainer {
+  flex-grow: 1;
+  min-height: 20rem;
+  overflow: auto;
+} */
+
+.commentsSectionContainer .commentsListContainer > *:not(:last-of-type) {
+  margin-bottom: 0.5rem;
+}
+
+.commentsSectionContainer .commentsListContainer .replyListContainer {
+  margin-top: 0.5rem;
+  margin-left: auto;
+  width: calc(100% - 4rem);
+}
