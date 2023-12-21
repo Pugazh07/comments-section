@@ -10,7 +10,6 @@ const CommentCard = ({ isReply, commentData, onModifySuccess }) => {
   const [addNewReply, setAddNewReply] = useState(false);
 
   const { id, name, comment, createdAt } = commentData;
-  const createdAtDate = new Date(createdAt);
 
   const onEditComment = (updatedComment) => {
     Utility.updateComment(id, updatedComment);
